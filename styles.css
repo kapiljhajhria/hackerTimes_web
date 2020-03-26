@@ -1,0 +1,26 @@
+.main-body{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.all-content-container{
+    justify-content: center;
+    width: 1200px;
+    background-color: aqua;
+}
+
+.website-name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.days-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+}
