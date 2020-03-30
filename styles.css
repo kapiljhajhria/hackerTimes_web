@@ -96,6 +96,7 @@ newssectiontop-popular-article-heading{
 .othernews-image{
     /*flex: 1;*/
     float: right;
+    width: 50%;
 }
 
 
@@ -131,4 +132,18 @@ newssectiontop-popular-article-heading{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 4px;
+}
+.newssectiontop-popular-article-heading{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.newsectiontop-popular-article-text-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.othernews-headline{
+    font-size: 22px;
+    font-weight: bold;
 }
