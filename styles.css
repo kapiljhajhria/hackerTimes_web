@@ -84,8 +84,9 @@ img{
     /*background-color: antiquewhite;*/
     flex: 5;
     margin: 8px;
-    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    /*box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);*/
     /*border-radius: 8px;*/
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 .popularnews_image{
@@ -138,8 +139,9 @@ margin-bottom: 12px;
     padding: 10px;
     margin: 10px;
     /*background-color: yellow;*/
-    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    /*box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);*/
     /*border-radius: 8px;*/
+    border: 1px solid rgba(0,0,0,0.2);
 }
 .othernews-content{
     /*flex: 1;*/
