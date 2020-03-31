@@ -2,6 +2,40 @@
 *{
     box-sizing: border-box;
 }
+
+/*nav drawer hor*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /*background-color: #333;*/
+}
+
+li {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li a {
+
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+li a:hover {
+    background-color: #c1c5c9;
+}
+
 .main-body{
     background-color: darkgrey;
     display: flex;
@@ -23,7 +57,7 @@
 }
 
 
-.days-menu{
+.nav-drawer-hor{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
