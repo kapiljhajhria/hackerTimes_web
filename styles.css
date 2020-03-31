@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 .main-body{
     background-color: darkgrey;
     display: flex;
@@ -7,7 +11,8 @@
 .all-content-container{
     justify-content: center;
     width: 1200px;
-    background-color: aqua;
+    /*background-color: aqua;*/
+    background-color: white;
 }
 
 .website-name{
@@ -29,6 +34,7 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 img{
     justify-content: center;
@@ -41,33 +47,42 @@ img{
 }
 .newssectiontop-popular-news{
     justify-content: center;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     flex: 5;
     margin: 8px;
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
 
 .popularnews_image{
     width: 100%;
+
 }
 .newsectiontop-popular-article-text-body{
-    margin: 8px;
-    /*padding: 8px;*/
+    padding-top: 20px;
 }
-newssectiontop-popular-article-heading{
-    justify-content: center;
-    text-align: center;
-}
+/*newssectiontop-popular-article-heading{*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
 .newssectiontop-othernews{
-
+    margin-top: 0;
+    padding-top: 0;
     /*background-color: bisque;*/
     flex: 3;
 }
 
 .newssection-bottom-container-footer,.section1-normal-article-footer,.newssectiontop-popular-article-footer,.othernews-footer{
+    /*padding-right: 5px;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
     width: 100%;
+}
+
+.comments{
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .newssection-bottom-container-headline,.othernews-headline{
     text-align: center;
@@ -87,7 +102,9 @@ newssectiontop-popular-article-heading{
 .newssectiontop-othernews-article-container{
     padding: 10px;
     margin: 10px;
-    background-color: yellow;
+    /*background-color: yellow;*/
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
 .othernews-content{
     /*flex: 1;*/
@@ -105,12 +122,15 @@ newssectiontop-popular-article-heading{
 .news-section-middle{
     flex-direction: row;
     display: flex;
+    margin-bottom: 10px;
 }
 
 .news-section-bottom{
+    margin-bottom: 10px;
     width: 100%;
     flex-direction: row;
     display: flex;
+    /*padding: 10px;*/
 
 }
 
@@ -118,7 +138,10 @@ newssectiontop-popular-article-heading{
     display: flex;
     flex-direction: row;
     width: 100%;
-
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 .newssection-bottom-container-image{
     flex: 1;
@@ -146,4 +169,19 @@ newssectiontop-popular-article-heading{
 .othernews-headline{
     font-size: 22px;
     font-weight: bold;
+    /*font-weight: bold;*/
 }
+/*news ection and its child div only, not children of children*/
+.news-section-top>div{
+    margin-top:0;
+    padding-top: 0;
+}
+.newssectiontop-othernews-article-container{
+    margin-top: 0;
+}
+/**/
+/*.news-section-top div{*/
+/*    margin-top: 0;*/
+/*    */
+/*}*/
+
