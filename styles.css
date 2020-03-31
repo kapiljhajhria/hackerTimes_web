@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: Serif;*/
 }
 
 /*nav drawer hor*/
@@ -96,6 +97,8 @@ img{
 }
 .newsectiontop-popular-article-text-body{
     padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 /*newssectiontop-popular-article-heading{*/
 /*    justify-content: center;*/
