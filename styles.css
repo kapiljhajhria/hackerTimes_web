@@ -175,8 +175,9 @@ margin-bottom: 12px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);
+    /*box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.2);*/
     /*border-radius: 8px;*/
+    border: 1px solid rgba(0,0,0,0.2);
     margin-right: 8px;
     margin-left: 8px;
 }
