@@ -219,3 +219,6 @@ img{
 /*    */
 /*}*/
 
+.comments, .comments+div{
+    color: #84888c;
+}
