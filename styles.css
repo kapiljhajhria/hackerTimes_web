@@ -1,6 +1,7 @@
 
 *{
     box-sizing: border-box;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 /*nav drawer hor*/
@@ -129,6 +130,7 @@ img{
 .newssectiontop-popular-article-heading,.othernews-body,.newssectiontop-popular-article-text,.newssection-bottom-container-body{
 margin-bottom: 12px;
     text-align: justify;
+    /*font-family: 'Roboto', sans-serif;*/
 
 }
 .newssectiontop-othernews{
@@ -226,4 +228,9 @@ margin-bottom: 12px;
 
 .comments, .comments+div{
     color: #84888c;
+}
+
+.newssectiontop-popular-article-heading,.othernews-headline,.newssection-bottom-container-headline{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify-all;
 }
